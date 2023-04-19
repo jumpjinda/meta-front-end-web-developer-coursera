@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hair Day</title>
+  <meta name="description" content="The official website of the Hair Day">
+  <meta name="author" content="Tanawat">
+  <meta property="og:title" content="Hair Day - Official Website">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/artboard/Artboard 1.png">
+  <meta property="og:url" content="">
+
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand:wght@600&family=Roboto:ital,wght@0,400;1,100&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div id="header-div">
+      <img id="header-img" src="./artboard/Artboard 23.png" alt="">
+      <p id="header-text">...Style your hair</p>
+    </div>
+    <div id="seperate-line"></div>
+    <nav>
+      <ul>
+        <li><a href="#header-div">
+            <p>Home</p>
+          </a></li>
+        <li><a href="#">Style</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hair-section">
+      <div class="img-wrapper">
+        <div class="img-wrapper-one"><img src="./hairstyle-img/3b05bd9bc832b3b58948354b9f83aee2.jpg" alt=""></div>
+        <div class="img-wrapper-two"><img src="./hairstyle-img/Bowl-Cut-for-Men-min-853x1024.jpg" alt=""></div>
+        <div class="img-wrapper-three"><img src="./hairstyle-img/Buzz-Cut-for-Men-min-853x1024.jpg" alt=""></div>
+        <div class="img-wrapper-four"><img src="./hairstyle-img/download.jpeg" alt=""></div>
+        <div class="img-wrapper-five"><img src="./hairstyle-img/Fade-Haircut-for-Men-min-853x1024.jpg" alt=""></div>
+        <div class="img-wrapper-six"><img src="./hairstyle-img/general-min-1-853x1024.jpg" alt=""></div>
+      </div>
+    </section>
+
+    <section id="nail-section">
+      <div id="nail-text">
+        <p>We also have nail services!!
+        </p>
+      </div>
+      <div><img id="nail-img" src="./nail-service/bannerservice.jpg" alt=""></div>
+    </section>
+
+    <section id="booking-section">
+      <div id="booking-text">Booking with us</div>
+
+      <div id="booking-form">
+        <form action="POST">
+          <div>
+            <label for="firstname">Firstname</label>
+            <input type="text" name="firstname" id="firstname" required>
+          </div>
+
+          <div>
+            <label for="lastname">Lastname</label>
+            <input type="text" name="lastname" id="lastname">
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+          </div>
+
+          <div>
+            <label for="date">Appointment Date</label>
+            <input type="date" name="date" id="date" required>
+          </div>
+
+          <div id="submit-button">
+            <button type="submit">Book Now</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Since Apr 19, 2023
+  </footer>
+</body>
+
+</html>
