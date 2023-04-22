@@ -12,15 +12,146 @@
   <meta property="og:type" content="website">
   <meta property="og:image" content="/logo/Asset-16@4x.png">
   <meta property="og:url"
-    content="https://github.com/jumpjinda/meta-front-end-web-developer-coursera/blob/master/4-HTML-and-CSS-in-depth/week3/1-Lab-Project-sandbox/index.html">
+    content="https://github.com/jumpjinda/meta-front-end-web-developer-coursera/blob/master/4-HTML-and-CSS-in-depth/week3/2-Portfolio-Project/index.html">
   <meta property="og:locate" content="en">
-  <meta property="og:site_name" content="Hair Day">
+  <meta property="og:site_name" content="Little Lemon Restaurant">
 
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
+  <header>
+    <img id="header-img" src="./logo/Asset-16@4x.png" alt="logo">
+    <nav>
+      <ul>
+        <li><a id="home" href="#home">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#book-section">Book</a></li>
+        <li><a href="#footer-section">About</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <div id="promotion">
+      <img id="promotion-img" src="./img/promotion.jpg" alt="">
+      <div id="promotion-text">
+        <h1>10% Off This Month</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, unde quae, distinctio odio aspernatur natus
+          quis consequuntur commodi ullam praesentium eos hic eius consequatur saepe totam delectus a? Et, maxime?
+          Culpa officiis id saepe blanditiis excepturi maiores expedita dolor perspiciatis labore, sed quam animi
+          voluptas totam maxime facere qui vero et eius ducimus numquam est magni temporibus harum! Suscipit, quod.</p>
+      </div>
+    </div>
+
+    <section class="information">
+      <article class="grid">
+        <div id="grid1">
+          <div class="grid-header">
+            <h1>Our Menu</h1>
+          </div>
+          <div class="grid-img"><img src="./img/grid1.avif" alt="powder"></div>
+          <div class="grid-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt recusandae nisi pariatur similique sed
+              impedit culpa veritatis omnis. Assumenda saepe placeat, similique harum temporibus rem iste reprehenderit
+              ullam laborum nam!
+              Odio omnis sequi quae provident dolores veritatis. Enim, ea recusandae neque suscipit obcaecati voluptates
+              iste autem ratione nihil quidem, sunt impedit tempora necessitatibus quia voluptatibus illum harum?
+              Distinctio, quidem enim?</p>
+          </div>
+          <div id="to-home">
+            <a href="#home">See our menu</a>
+          </div>
+        </div>
+        <div id="grid2">
+          <div class="grid-header">
+            <h1>Opening Hours</h1>
+          </div>
+          <div class="grid-img">
+            <img src="./img/grid2.avif" alt="">
+          </div>
+          <div class="grid-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quo quam laboriosam enim facere maxime
+              voluptatum? Commodi, ullam tempore voluptatum molestiae dolor optio sunt at! Quidem perferendis quasi
+              assumenda aliquid!</p>
+          </div>
+          <div id="opening-hours">
+            <p>Mon - Fri: 2pm - 10pm</p>
+            <p>Sat: 2pm - 11pm</p>
+            <p>Sun: - Fri: 2pm - 11pm</p>
+          </div>
+        </div>
+        <div id="grid3">
+          <div class="grid-header">
+            <h1>Book a table</h1>
+          </div>
+          <div class="grid-img">
+            <img src="./img/grid3.avif" alt="">
+          </div>
+          <div class="grid-text">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto nam natus molestias iure odio alias
+              aliquid, illum minima eveniet, ducimus consectetur excepturi voluptatibus incidunt exercitationem
+              recusandae maiores, fugiat cum officia!
+              Inventore vero animi cumque temporibus similique mollitia dolorem quidem pariatur distinctio tempora illo
+              exercitationem esse eaque fugiat, facere id quas ducimus veniam deleniti. Necessitatibus, tempora numquam
+              dolores quibusdam dignissimos nostrum.</p>
+          </div>
+          <div id="to-book">
+            <a href="#book-section">Book your table now</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="book-section">
+      <div id="booking-text">Booking with us</div>
+
+      <div id="booking-form">
+        <form action="POST">
+          <div>
+            <label for="firstname">Firstname</label>
+            <input type="text" name="firstname" id="firstname" required>
+          </div>
+
+          <div>
+            <label for="lastname">Lastname</label>
+            <input type="text" name="lastname" id="lastname">
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+          </div>
+
+          <div>
+            <label for="date">Appointment Date</label>
+            <input type="date" name="date" id="date" required>
+          </div>
+
+          <div id="submit-button">
+            <button type="submit">Book Now</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section id="footer-section">
+      <div id="left-footer">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem eaque non labore vero ratione inventore
+          suscipit excepturi iste. Assumenda iste impedit dicta perferendis cum. Accusantium aliquam id facilis
+          obcaecati similique?</p>
+      </div>
+      <div id="right-footer">
+        <p>Since Apr 22, 2023</p>
+      </div>
+    </section>
+  </footer>
 </body>
 
 </html>
