@@ -11,8 +11,10 @@
   <meta property="og:title" content="Hair Day - Official Website">
   <meta property="og:type" content="website">
   <meta property="og:image" content="/artboard/Artboard 1.png">
-  <meta property="og:url" content="">
-
+  <meta property="og:url"
+    content="https://github.com/jumpjinda/meta-front-end-web-developer-coursera/blob/master/4-HTML-and-CSS-in-depth/week3/1-Lab-Project-sandbox/index.html">
+  <meta property="og:locate" content="en">
+  <meta property="og:site_name" content="Hair Day">
 
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,17 +33,24 @@
     <div id="seperate-line"></div>
     <nav>
       <ul>
-        <li><a href="#header-div">
+        <li><a href="#welcome-section">
             <p>Home</p>
           </a></li>
-        <li><a href="#">Style</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="#hair-section">Style</a></li>
+        <li><a href="#footer">About</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
+    <section id="welcome-section">
+      <div>Welcome</div>
+      <div>to</div>
+      <img src="./artboard/Artboard 1.png" alt="logo">
+    </section>
+
     <section id="hair-section">
+      <div id="hair-text">Chose your hair style</div>
       <div class="img-wrapper">
         <div class="img-wrapper-one"><img src="./hairstyle-img/3b05bd9bc832b3b58948354b9f83aee2.jpg" alt=""></div>
         <div class="img-wrapper-two"><img src="./hairstyle-img/Bowl-Cut-for-Men-min-853x1024.jpg" alt=""></div>
@@ -93,7 +102,7 @@
     </section>
   </main>
 
-  <footer>
+  <footer id="footer">
     Since Apr 19, 2023
   </footer>
 </body>
